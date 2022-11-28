@@ -1,2 +1,2 @@
 'os dados foram enviados'
-'aprenda java safado!'
+'aprenda java .safado!'

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomularios</title>
+</head>
+<body>
+    <h1>Exemplos de Fomularios</h1>
+    <form action="ex001/cadastro.js" method="get" autocomplete="on">
+        <p>
+            
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <optgroup label="Região Nordeste">
+                <option value="PB">Paraiba</option>
+                <option value="PE">Pernambuco</option>
+                <option value="RM">RIO GRANDE DO NORTE</option>
+            </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="Istprof">
+            <datalist id="Istprof">
+                <option >Admistrador</option>
+                <option >Contabilista</option>
+                <option>Desenvolverdor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            <!-- usar metodo post para não ter limitção -->
+        </p>
+</body>
+</html>
