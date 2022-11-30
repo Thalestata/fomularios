@@ -12,6 +12,9 @@ menu{
     display: none;
 
 }
-header{
-    background-color: rgb(17, 100, 172);
+article{
+    width: 100%;
+}
+article::after{
+    content: 'foi impresso';
 }
